@@ -1,0 +1,45 @@
+/* src/components/TaskList.css */
+
+.task-list {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.new-task {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.new-task input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.new-task button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.new-task button:hover {
+    background-color: #218838;
+}
